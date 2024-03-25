@@ -1,0 +1,19 @@
+<div class="flex flex-col items-center bg-slate-800 h-screen">
+<h1 class="text-blue-600 text-5xl italic mt-5">Tic <span>Tac</span> Toe</h1>
+<h1 class="text-xl text-white mt-2">Turn: {{player}}</h1>
+<div class="grid grid-cols-3 w-96 mt-4">
+    <button class="w-32 h-32 border-2 border-blue-600 text-white flex justify-center text-6xl items-center" (click) = 'handleClick(0)'>{{board[0]}}</button>
+    <button class="w-32 h-32 border-2 border-blue-600 text-white flex justify-center text-6xl items-center" (click) = 'handleClick(1)'>{{board[1]}}</button>
+    <button class="w-32 h-32 border-2 border-blue-600 text-white flex justify-center text-6xl items-center" (click) = 'handleClick(2)'>{{board[2]}}</button>
+    
+    <button class="w-32 h-32 border-2 border-blue-600 text-white flex justify-center text-6xl items-center" (click) = 'handleClick(3)'>{{board[3]}}</button>
+    <button class="w-32 h-32 border-2 border-blue-600 text-white flex justify-center text-6xl items-center" (click) = 'handleClick(4)'>{{board[4]}}</button>
+    <button class="w-32 h-32 border-2 border-blue-600 text-white flex justify-center text-6xl items-center" (click) = 'handleClick(5)'>{{board[5]}}</button>
+    
+    <button class="w-32 h-32 border-2 border-blue-600 text-white flex justify-center text-6xl items-center" (click) = 'handleClick(6)'>{{board[6]}}</button>
+    <button class="w-32 h-32 border-2 border-blue-600 text-white flex justify-center text-6xl items-center" (click) = 'handleClick(7)'>{{board[7]}}</button>
+    <button class="w-32 h-32 border-2 border-blue-600 text-white flex justify-center text-6xl items-center" (click) = 'handleClick(8)'>{{board[8]}}</button>
+</div>
+<h1 class="text-blue-600 text-3xl mt-5">{{winner}}</h1>
+<button (click) = "handlePlayAgain()" class="text-2xl text-black bg-yellow-400 rounded-3xl p-3 mt-6">Play again</button>
+</div>
