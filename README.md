@@ -1,3 +1,10 @@
+# Note from developer
+If you are using Angular for the first time read this documentation from the official website
+https://angular.io/guide/setup-local
+This will show you how to install and set up your own project.
+If you are cloning this tree directly, then after opening in vs code, run npm i in the directory
+of the package.json to install the dependencies.
+
 # Angular2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1.
