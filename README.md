@@ -1,3 +1,11 @@
+# Developer Note
+Hi everyone! Here is Tic Tac Toe in angular.  To clone and set up this project locally, here are the commands
+
+    $ git clone ...git link...
+    $ cd tic-tac-toe-angular-tailwindcss-typescript
+    $ npm i
+    $ ng serve
+
 # Note from developer
 If you are using Angular for the first time read this documentation from the official website
 https://angular.io/guide/setup-local
