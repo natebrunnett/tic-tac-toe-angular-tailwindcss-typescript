@@ -6,6 +6,9 @@ Hi everyone! Here is Tic Tac Toe in angular.  To clone and set up this project l
     $ npm i
     $ npm install -g @angular/cli //make sure you have angular installed
     $ ng serve
+Press enter at both prompts and go to the following to access the app. 
+
+    http://localhost:4200
 
 # Note from developer
 If you are using Angular for the first time read this documentation from the official website
