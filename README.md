@@ -8,7 +8,7 @@ Hi everyone! Here is Tic Tac Toe in angular.  To clone and set up this project l
     $ ng serve
 Press enter at both prompts and go to the following to access the app. 
 
-    http://localhost:4200
+    http://localhost:4200/
 
 # Note from developer
 If you are using Angular for the first time read this documentation from the official website
