@@ -4,12 +4,14 @@ Hi everyone! Here is Tic Tac Toe in angular.  To clone and set up this project l
     $ git clone ...git link...
     $ cd tic-tac-toe-angular-tailwindcss-typescript
     $ npm i
+    $ npm install -g @angular/cli //make sure you have angular installed
     $ ng serve
 
 # Note from developer
 If you are using Angular for the first time read this documentation from the official website
 https://angular.io/guide/setup-local
 This will show you how to install and set up your own project.
+
 If you are cloning this tree directly, then after opening in vs code, run npm i in the directory
 of the package.json to install the dependencies.  And finally '$ng serve' to launch tic-tac-toe!
 
